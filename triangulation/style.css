@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	overflow: hidden;
+	height: 100vh;
+}
+
+#data-input{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#data-input input, #data-input textarea{
+	display: block;
+}
+
+#data-input textarea{
+	width: 100%;
+	height: 300px;
+	resize: none;
+}

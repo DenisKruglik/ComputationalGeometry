@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	overflow: hidden;
+	height: 100vh;
+}
+
+#data-input{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#data-input input{
+	display: block;
+}
